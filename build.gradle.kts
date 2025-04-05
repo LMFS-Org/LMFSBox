@@ -4,7 +4,7 @@ import java.util.Date
 plugins {
     kotlin("jvm") version "2.0.20-RC2"
     id("com.github.johnrengelman.shadow") version "8.1.1"
-    id("com.palantir.git-version") version "3.1.0"
+    id("com.palantir.git-version") version "3.2.0"
     application
 }
 
