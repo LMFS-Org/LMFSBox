@@ -2,7 +2,7 @@ import com.palantir.gradle.gitversion.VersionDetails
 import java.util.Date
 
 plugins {
-    kotlin("jvm") version "2.1.20"
+    kotlin("jvm") version "2.1.21"
     id("com.github.johnrengelman.shadow") version "8.1.1"
     id("com.palantir.git-version") version "3.2.0"
     application
