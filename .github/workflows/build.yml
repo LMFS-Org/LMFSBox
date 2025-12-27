@@ -24,7 +24,7 @@ jobs:
         uses: gradle/gradle-build-action@v3.5.0
         with:
           arguments: build
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: LMFSBox
           path: build/libs/
