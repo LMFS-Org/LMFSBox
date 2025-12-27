@@ -20,7 +20,7 @@ dependencies {
     implementation(kotlin("reflect"))
     implementation("org.fusesource.jansi:jansi:2.4.2")
     implementation("com.github.ajalt.clikt:clikt:5.0.3")
-    implementation("org.jline:jline:3.30.5")
+    implementation("org.jline:jline:3.30.6")
 }
 
 tasks.test {
